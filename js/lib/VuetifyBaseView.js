@@ -94,7 +94,7 @@ export class VuetifyBaseView extends DOMWidgetView {
                 });
             },
             render(createElement) {
-                return createElement('div');
+                return createElement('div', {style: {display: 'flex'}});
             },
         };
     }
